@@ -18,9 +18,11 @@ Extrair insights valiosos a partir dos dados de vendas do **App PDV Mundo**, aut
 ![Arquitetura da Solução](imagens/arquitetura_solucao.png)
 
 A solução é baseada em três etapas principais:
-1. **Coleta e Tratamento de Dados:** Uma query SQL (salva em [`analise/query_tratamento_pdv.sql`](analise/query_tratamento_pdv.sql)) extrai e pré-processa os dados do PDV Mundo.
-2. **Modelagem e Análise:** O [Looker Studio](https://lookerstudio.google.com/) é usado para criar métricas e filtros que revelam oportunidades de aumento de vendas.
-3. **Visualização:** O dashboard no Looker Studio apresenta os insights de forma clara, ajudando a identificar o desempenho por produto, região e período.
+
+1. **Coleta e Tratamento de Dados:** Uma query SQL (salva em `analise/query_tratamento_pdv.sql`) extrai e pré-processa os dados do PDV Mundo.  
+2. **Modelagem e Análise:** O Looker Studio é usado para criar métricas e filtros que revelam oportunidades de aumento de vendas.  
+3. **Visualização:** O [dashboard no Looker Studio](https://lookerstudio.google.com/reporting/c9458e9b-2185-4354-9400-f1381e44657b) apresenta os insights de forma clara, ajudando a identificar o desempenho por produto, região e período.
+
 
 ---
 
@@ -38,6 +40,7 @@ projeto-vendas-pdv/
 └── README.md                         # Este documento.
 
 📊 Etapas Concluídas
+
 1️⃣ Coleta e Transformação dos Dados
 
 Fonte: App PDV Mundo
